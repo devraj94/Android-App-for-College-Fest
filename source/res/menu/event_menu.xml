@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/bydate" android:title="By Date">
+        <menu>
+            <item android:id="@+id/day1_bydate" android:title="27 Feb"/>
+            <item android:id="@+id/day2_bydate" android:title="28 Feb"/>
+            <item android:id="@+id/day3_bydate" android:title="1 Mar"/>
+            <item android:id="@+id/day4_bydate" android:title="2 Mar"/>
+        </menu>
+    </item>
+    <item android:id="@+id/bycategory" android:title="By Category">
+        <menu>
+            <item android:id="@+id/cult_bycat" android:title="Cult"/>
+            <item android:id="@+id/tech_bycat" android:title="Tech"/>
+             <item android:id="@+id/prakriti_bycat" android:title="Prakriti"/>
+        </menu>
+    </item>
+    
+
+</menu>

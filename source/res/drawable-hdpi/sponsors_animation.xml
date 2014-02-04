@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/selected" android:oneshot="false">
+    <item android:drawable="@drawable/enquotism" android:duration="1500" />
+    <item android:drawable="@drawable/bepl" android:duration="1500" />
+    <item android:drawable="@drawable/robosejugus" android:duration="1500" />
+    <item android:drawable="@drawable/shastra" android:duration="1500" />
+    <item android:drawable="@drawable/bytecoder" android:duration="1500" />
+    <item android:drawable="@drawable/abl" android:duration="1500" />
+    <item android:drawable="@drawable/infizeal" android:duration="1500" />
+    <item android:drawable="@drawable/solnbox" android:duration="1500" />
+    <item android:drawable="@drawable/technomatrix" android:duration="1500" />
+    <item android:drawable="@drawable/paytm" android:duration="1500" />
+    <item android:drawable="@drawable/thinkware" android:duration="1500" />
+    <item android:drawable="@drawable/myfm" android:duration="1500" />
+    <item android:drawable="@drawable/codechef" android:duration="1500" />
+
+</animation-list>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="org.ignus"
+    android:versionCode="1"
+    android:versionName="1.0" android:installLocation="preferExternal" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+ <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ignus_anim_pic"
+        android:theme="@style/android:Theme.Holo.Light.NoActionBar" android:logo="@drawable/ignus_anim_pic" android:label=' IGNUS' >
+        <activity
+            android:name="org.ignus.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity 
+             android:theme="@style/AppTheme"
+            android:name="org.ignus.Ignus_main"
+            ></activity>
+         <activity 
+             android:theme="@style/AppTheme"
+             android:label="Results"
+            android:name="org.ignus.Results"
+            ></activity>
+         <activity 
+             android:theme="@style/AppTheme"
+             android:label="Notifications"
+            android:name="org.ignus.Livefeed"
+            ></activity>
+        <activity 
+             android:theme="@style/AppTheme"
+             android:label="Happening Now"
+            android:name="org.ignus.Events"
+            ></activity>
+        <activity 
+             android:theme="@style/AppTheme"
+             android:label="Register"
+            android:name="org.ignus.Register"
+            ></activity>
+        <activity 
+             android:theme="@style/AppTheme"
+             android:label="Schedule"
+            android:name="org.ignus.Day1"
+            ></activity>
+        <activity 
+             android:theme="@style/android:Theme.Holo.Light.NoActionBar"
+            android:name="org.ignus.Contacts"
+            ></activity>
+         <activity 
+             android:theme="@style/AppTheme"
+             android:label="Suggest Us"
+            android:name="org.ignus.Suggestions"
+            ></activity>
+          <activity 
+             android:theme="@style/AppTheme"
+            android:name="org.ignus.Webview"
+            ></activity>
+          <activity 
+             android:theme="@style/AppTheme"
+             android:label="Venue Map"
+            android:name="org.ignus.Venuemap"
+            ></activity>
+           <activity 
+             android:theme="@style/AppTheme"
+             android:label="Proshows"
+            android:name="org.ignus.Proshows"
+            ></activity>
+           <activity 
+             android:theme="@style/AppTheme"
+             android:label="Sponsors"
+            android:name="org.ignus.Sponsors"
+            ></activity>
+           <activity 
+             android:theme="@style/AppTheme"
+             android:label="Image Viewer"
+            android:name="org.ignus.picture_display"
+            ></activity>
+    </application>
+
+</manifest>

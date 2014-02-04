@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_back_2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Ignus_main" >
+
+    <EditText
+        android:id="@+id/name_suggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/name_sugg"
+        android:layout_alignBottom="@+id/name_sugg"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/name_sugg"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+         >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/email_sugg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name_sugg"
+        android:layout_below="@+id/name_sugg"
+        android:layout_marginTop="24dp"
+        android:text="E-Mail            :"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/email_suggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/email_sugg"
+        android:layout_alignBottom="@+id/email_sugg"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/email_sugg"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+         />
+
+    <Button
+        android:id="@+id/button_suggestions"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:text="Make Suggestion"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/suggestion_suggestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/suggestion"
+        android:layout_alignBottom="@+id/suggestion"
+        android:layout_alignRight="@+id/email_suggestions"
+        android:layout_toRightOf="@+id/suggestion"
+        android:ems="10"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/suggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_suggestions"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="96dp"
+        android:layout_marginLeft="24dp"
+        android:text="Suggestion   :"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/name_sugg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/suggestion"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="76dp"
+        android:text="Name            :"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

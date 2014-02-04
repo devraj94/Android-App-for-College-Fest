@@ -1,0 +1,8 @@
+Robo War,,,Manish Soni-805891227,Dilkhush Meena-9468667033,Raghunath Meena-9309440679,Pawan Kumar Verma,9309440679
+Build a manual or RC robot that will immobilize the opponent’s robot to claim the crown of “RAMPAGE”
+Telescope Workshop,,,Shreyas Srivastava -8003731128
+Design and construct an accurate telescope using ONLY the given resources, capable of resolving stars accurately.
+Chrome extension,,,Aseem Raj Baranwal-9660186398
+Use your innovation to design a Google chrome extension .
+Obfuscator,,,Anshuman Singh -7665977899,Akshit Jain-889019669
+This event will be conducted in two parts. In first half, each team have to write obfuscated code for the specific simple problem given to the team.The team will be provided with the compiler for this part. After this, your code will be provided to every other team and you will be provided with the code of other teams. In second half, the teams have to go through the codes of other teams. And without actually running their code, they have to come up with the task being performed.

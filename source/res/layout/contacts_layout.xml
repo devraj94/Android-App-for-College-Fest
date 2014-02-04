@@ -1,0 +1,545 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" 
+    >
+<RelativeLayout 
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back_2"
+    android:orientation="horizontal"
+    >
+    <TextView 
+        android:id="@+id/contacts_textview"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IGNUS ORGANISING TEAM - 2014"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+  <!--    <ExpandableListView
+        android:layout_below="@id/contacts_textview"
+        android:id="@+id/contacts_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+    </ExpandableListView> -->
+
+    <TextView
+        android:id="@+id/contacts_text_area1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_textview"
+        android:layout_alignRight="@+id/contacts_textview"
+        android:layout_below="@+id/contacts_textview"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:text="Overall Cultural Coordinator :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_text_area1"
+        android:layout_below="@+id/contacts_text_area1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="16dp"
+        android:text="Pratik Kumar - +91 9782458240"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/contacts_name2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/name1"
+        android:layout_below="@+id/name1"
+        android:layout_marginTop="34dp"
+        android:text="Tavish Garg - +91 9828801027 "
+        android:textColor="#000000" />
+
+    
+    <ImageView
+        android:id="@+id/imageView_pratik_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/name1"
+        android:layout_alignLeft="@+id/imageView_maharshi_small"
+        android:src="@drawable/pratik_small"
+        android:clickable="true"
+         />
+
+    <ImageView
+        android:id="@+id/imageView_tavish_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name2"
+        android:layout_alignLeft="@+id/imageView_maharshi_small"
+        android:src="@drawable/tavish_small"
+        android:clickable="true" 
+        />
+    
+    <TextView
+        android:id="@+id/contacts_text_area2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/contacts_name2"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:text="Overall Technical Coordinator :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contacts_name3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name2"
+        android:layout_alignRight="@+id/contacts_text_area2"
+        android:layout_below="@+id/contacts_text_area2"
+        android:layout_marginTop="18dp"
+        android:text="Himanshu Sahu - +91 8824371609 "
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/contacts_name4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name3"
+        android:layout_below="@+id/contacts_name3"
+        android:layout_marginTop="40dp"
+        android:text="Mohit Dadhich - +91 9462211897"
+        android:textColor="#000000" />
+
+    
+    <TextView
+        android:id="@+id/contacts_text_area4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/contacts_name4"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:text="Hospitality and Public Relations :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contacts_name7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name2"
+        android:layout_alignRight="@+id/contacts_text_area2"
+        android:layout_below="@+id/contacts_text_area4"
+        android:layout_marginTop="18dp"
+        android:text="Atul Agarwal - +91 8386078781 "
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/contacts_name8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name3"
+        android:layout_below="@+id/contacts_name7"
+        android:layout_marginTop="40dp"
+        android:text="Abhishek Singh - +91 9828861783 "
+        android:textColor="#000000" />
+    
+    <TextView
+        android:id="@+id/contacts_name9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name3"
+        android:layout_below="@+id/contacts_name8"
+        android:layout_marginTop="40dp"
+        android:text="Kumar Saurav  - +91 8947083534"
+        android:textColor="#000000" />
+    
+    
+     <TextView
+        android:id="@+id/Contacts_textarea5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/contacts_name4"
+        android:layout_below="@+id/contacts_name9"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:text="Marketing Head :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contacts_name10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name4"
+        android:layout_alignRight="@+id/Contacts_textarea3"
+        android:layout_below="@+id/Contacts_textarea5"
+        android:layout_marginTop="31dp"
+        android:text="Kedar Vaidya- +91 9828608892"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/contacts_name11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name5"
+        android:layout_below="@+id/contacts_name10"
+        android:layout_marginTop="41dp"
+        android:text="Nithin Veer Reddy - +91 8947052876 "
+        android:textColor="#000000" />
+    
+     <TextView
+        android:id="@+id/Contacts_textarea6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/contacts_name4"
+        android:layout_below="@+id/contacts_name11"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:text="Event Head :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contacts_name12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name4"
+        android:layout_alignRight="@+id/Contacts_textarea6"
+        android:layout_below="@+id/Contacts_textarea6"
+        android:layout_marginTop="31dp"
+        android:text="Dhiraj Bhatt- +91 9828797616"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/contacts_name13"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name5"
+        android:layout_below="@+id/contacts_name12"
+        android:layout_marginTop="41dp"
+        android:text="Sankha Narayan Guria-8947083543  "
+        android:textColor="#000000" />
+    
+     <TextView
+        android:id="@+id/Contacts_textarea7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/contacts_name4"
+        android:layout_below="@+id/contacts_name13"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:text="WorkShop Head :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contacts_name14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name4"
+        android:layout_alignRight="@+id/Contacts_textarea3"
+        android:layout_below="@+id/Contacts_textarea7"
+        android:layout_marginTop="31dp"
+        android:text="Jitendra Choudhary- +91 9610840149"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/contacts_name15"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name5"
+        android:layout_below="@+id/contacts_name14"
+        android:layout_marginTop="41dp"
+        android:text="Sahil Kharb - +91 9828954288 "
+        android:textColor="#000000" />
+    
+    
+     <TextView
+        android:id="@+id/contacts_text_area8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/contacts_name15"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:text="Head TechExpo :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contacts_name16"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name2"
+        android:layout_alignRight="@+id/contacts_text_area2"
+        android:layout_below="@+id/contacts_text_area8"
+        android:layout_marginTop="18dp"
+        android:text="Neelesh Dwivedi - +91 9772359680 "
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/contacts_name17"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name3"
+        android:layout_below="@+id/contacts_name16"
+        android:layout_marginTop="40dp"
+        android:text="Neeraj Kumar - +91 9828507799 "
+        android:textColor="#000000" />
+    
+    <TextView
+        android:id="@+id/contacts_name18"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name3"
+        android:layout_below="@+id/contacts_name17"
+        android:layout_marginTop="40dp"
+        android:text="Sudhendra Kowlagi  - +91 9982151117 "
+        android:textColor="#000000" />
+    
+    <TextView
+        android:id="@+id/Contacts_textarea9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/contacts_name4"
+        android:layout_below="@+id/contacts_name18"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:text="Head Prakriti :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contacts_name19"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name4"
+        android:layout_alignRight="@+id/Contacts_textarea3"
+        android:layout_below="@+id/Contacts_textarea9"
+        android:layout_marginTop="31dp"
+        android:text="Krati Saxena- +91 8947034880"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/contacts_name20"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name5"
+        android:layout_below="@+id/contacts_name19"
+        android:layout_marginTop="41dp"
+        android:text="Sandeep Hatte - +91 8386068763"
+        android:textColor="#000000" />
+    
+    
+    <TextView
+        android:id="@+id/Contacts_textarea3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/contacts_name4"
+        android:layout_below="@+id/contacts_name20"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:text="App Design and Development :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/contacts_name5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name4"
+        android:layout_alignRight="@+id/Contacts_textarea3"
+        android:layout_below="@+id/Contacts_textarea3"
+        android:layout_marginTop="31dp"
+        android:text="MAHARSHI DEVRAJ- +918947052873"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/contacts_name6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contacts_name5"
+        android:layout_below="@+id/contacts_name5"
+        android:layout_marginTop="41dp"
+        android:text="Rishabh Garg - +91 8386837484"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/imageView_maharshi_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/contacts_name6"
+        android:layout_alignLeft="@+id/Contacts_textarea3"
+        android:src="@drawable/maharshi_small" 
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1_sahu_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name3"
+        android:layout_alignLeft="@+id/contacts_text_area2"
+        android:src="@drawable/sahu_small" 
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView_mohit_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1_sahu_small"
+        android:layout_below="@+id/imageView1_sahu_small"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/mohit_small" 
+        android:clickable="true"
+        />
+
+    <ImageView
+        android:id="@+id/imageView_atulagarwal_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/contacts_name8"
+        android:layout_alignLeft="@+id/contacts_text_area4"
+        android:src="@drawable/atulagarwal_small" />
+
+    <ImageView
+        android:id="@+id/imageView_kedar_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name10"
+        android:layout_toLeftOf="@+id/contacts_name10"
+        android:src="@drawable/kedar_small" />
+
+    <ImageView
+        android:id="@+id/imageView_nithin_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name11"
+        android:layout_toLeftOf="@+id/contacts_name11"
+        android:src="@drawable/nithin_small" />
+
+    <ImageView
+        android:id="@+id/imageView_abhisheksingh_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name8"
+        android:layout_alignRight="@+id/imageView_atulagarwal_small"
+        android:src="@drawable/no_image_small" />
+
+    <ImageView
+        android:id="@+id/imageView_kumarsaurav_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name9"
+        android:layout_alignRight="@+id/imageView_abhisheksingh_small"
+        android:src="@drawable/no_image_small" />
+
+    <ImageView
+        android:id="@+id/imageView_ridhabgarg_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name6"
+        android:layout_alignRight="@+id/imageView_nithin_small"
+        android:src="@drawable/no_image_small" />
+
+    <ImageView
+        android:id="@+id/imageView_dhirajbatt_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/contacts_name13"
+        android:layout_alignLeft="@+id/imageView_nithin_small"
+        android:src="@drawable/dhirajbatt_small" />
+
+    <ImageView
+        android:id="@+id/imageView_sankha_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name13"
+        android:layout_alignLeft="@+id/imageView_dhirajbatt_small"
+        android:src="@drawable/sankha_small" />
+
+    <ImageView
+        android:id="@+id/imageView_jitendra_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name14"
+        android:layout_alignLeft="@+id/imageView_sankha_small"
+        android:src="@drawable/jitendra_small" />
+
+    <ImageView
+        android:id="@+id/imageView_sahil_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name15"
+        android:layout_alignLeft="@+id/imageView_jitendra_small"
+        android:src="@drawable/sahil_small" />
+
+    <ImageView
+        android:id="@+id/imageView_neelesh_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/contacts_name17"
+        android:layout_alignLeft="@+id/imageView_sahil_small"
+        android:src="@drawable/neelesh_small" />
+
+    <ImageView
+        android:id="@+id/imageView_neeraj_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name17"
+        android:layout_alignLeft="@+id/contacts_text_area8"
+        android:src="@drawable/no_image_small" />
+
+    <ImageView
+        android:id="@+id/imageView_sudendhra_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name18"
+        android:layout_alignLeft="@+id/imageView_neeraj_small"
+        android:src="@drawable/no_image_small" />
+
+    <ImageView
+        android:id="@+id/imageView_krati_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name19"
+        android:layout_alignRight="@+id/imageView_maharshi_small"
+        android:src="@drawable/no_image_small" />
+
+    <ImageView
+        android:id="@+id/imageView_sandeep_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/contacts_name20"
+        android:layout_alignLeft="@+id/imageView_ridhabgarg_small"
+        android:src="@drawable/sandeep_small" />
+
+</RelativeLayout> 
+</ScrollView>

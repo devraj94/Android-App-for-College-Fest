@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal" 
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="592dp" >
+
+        <TextView
+            android:id="@+id/Merchandise_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Merchandise Partners"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Merchandise_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/enquotism" />
+
+        <TextView
+            android:id="@+id/Event_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="Event Partners"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Event_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/robosejugus" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_below="@+id/imageView2"
+             android:layout_marginTop="28dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bepl" />
+        
+        <TextView
+            android:id="@+id/WorkShop_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="WorkShop Partners"
+            android:textSize="16sp" />
+        
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_below="@+id/WorkShop_text"
+             android:layout_marginTop="28dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/shastra" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_below="@+id/imageView4"
+             android:layout_marginTop="28dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/bytecoder" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_below="@+id/imageView5"
+             android:layout_marginTop="28dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/abl" />
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_below="@+id/imageView6"
+             android:layout_marginTop="28dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/infizeal" />
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_below="@+id/imageView7"
+             android:layout_marginTop="28dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/solnbox" />
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_below="@+id/imageView8"
+             android:layout_marginTop="28dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/technomatrix" />
+        
+        <TextView
+            android:id="@+id/WorkShop_outreach_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="WorkShop Outreach Partners"
+            android:textSize="16sp" />
+        
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_below="@+id/WorkShop_outreach_text"
+             android:layout_marginTop="28dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/thinkware" />
+
+        <TextView
+            android:id="@+id/Recharge_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="WorkShop Partners"
+            android:textSize="16sp" />
+        
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_below="@+id/Recharge_text"
+             android:layout_marginTop="28dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/paytm" />
+
+        <TextView
+            android:id="@+id/Radio_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="Radio Partners"
+            android:textSize="16sp" />
+        
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_below="@+id/Radio_text"
+             android:layout_marginTop="28dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/myfm" />
+
+        <TextView
+            android:id="@+id/Programming_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView12"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="Programming Partners"
+            android:textSize="16sp" />
+        
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_below="@+id/Programming_text"
+             android:layout_marginTop="28dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/codechef" />
+        
+    </RelativeLayout>
+    
+</ScrollView>

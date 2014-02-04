@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/apphome2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Ignus_main" >
+
+    <ImageView
+        android:id="@+id/register_button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/schedule_button_main"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/registration_icon" />
+
+    <TextView
+        android:id="@+id/venuemap_text_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/register_text_main"
+        android:layout_alignBottom="@+id/register_text_main"
+        android:layout_alignLeft="@+id/venuemap_button_main"
+        android:text="Venue Map"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/register_text_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/schedule_text_main"
+        android:layout_centerHorizontal="true"
+        android:text="Register"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/schedule_text_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/schedule_button_main"
+        android:layout_below="@+id/schedule_button_main"
+        android:text="  Schedule"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/proshows_button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/venuemap_text_main"
+        android:layout_alignTop="@+id/results_button_main"
+        android:src="@drawable/proshows_icon" />
+
+    <ImageView
+        android:id="@+id/sponsors_button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/results_button_main"
+        android:layout_alignTop="@+id/suggestions_button_main"
+        android:src="@drawable/sponsors_icon" />
+
+    <TextView
+        android:id="@+id/sponsors_text_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/suggestions_text_main"
+        android:layout_centerHorizontal="true"
+        android:text="Sponsors"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/contacts_text_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sponsors_text_main"
+        android:layout_alignBottom="@+id/sponsors_text_main"
+        android:layout_alignLeft="@+id/proshows_text_main"
+        android:text="   Contacts"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/schedule_button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="34dp"
+        android:layout_toLeftOf="@+id/register_button_main"
+        android:src="@drawable/events_icon" />
+
+    <ImageView
+        android:id="@+id/venuemap_button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/venuemap_text_main"
+        android:layout_marginLeft="31dp"
+        android:layout_toRightOf="@+id/register_button_main"
+        android:src="@drawable/maps_icon" />
+
+    <ImageView
+        android:id="@+id/suggestions_button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/livefeed_button_main"
+        android:layout_below="@+id/livefeed_text_main"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/suggestions_icon" />
+
+    <TextView
+        android:id="@+id/suggestions_text_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/livefeed_text_main"
+        android:layout_below="@+id/suggestions_button_main"
+        android:text="    Suggestions"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/contacts_button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sponsors_button_main"
+        android:layout_alignRight="@+id/proshows_button_main"
+        android:src="@drawable/contacts_icon" />
+
+    <TextView
+        android:id="@+id/proshows_text_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/proshows_button_main"
+        android:layout_below="@+id/proshows_button_main"
+        android:text="  ProShows"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/results_text_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/register_text_main"
+        android:layout_below="@+id/results_button_main"
+        android:text=" Results"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/livefeed_text_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/results_text_main"
+        android:layout_alignBottom="@+id/results_text_main"
+        android:layout_alignRight="@+id/suggestions_button_main"
+        android:text="  Notifications"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/livefeed_button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/schedule_text_main"
+        android:layout_below="@+id/schedule_text_main"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/notifications_icon" />
+
+    <ImageView
+        android:id="@+id/results_button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/livefeed_button_main"
+        android:layout_toRightOf="@+id/schedule_button_main"
+        android:src="@drawable/results_icon" />
+
+    <ImageView
+        android:id="@+id/sponsors_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register_button_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+         />
+
+</RelativeLayout>

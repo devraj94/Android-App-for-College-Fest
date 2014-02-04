@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/main_back_2"
+    >
+
+    <TextView
+        android:id="@+id/name_sugg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="FEST STARTS ON 27 OF FEB" 
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_sugg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:text="MeanWhile Checkout the schedule" 
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Click on Menu" 
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="HAPPENING NOW"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/menu_button_events"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="Event Schedule"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
